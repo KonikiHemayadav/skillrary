@@ -15,7 +15,7 @@ public class CourseListPage {
 	@FindBy(xpath="//a[text()=' New']")
 	private WebElement newButton;
 	
-    private String deletePath="//td[text()='%s']/ancestor::tr/descendant::button[text()='Delete']";
+    private String deletePath="//td[text()='courseName']/ancestor::tr/descendant::button[text()=' Delete']";
     
 	@FindBy(name="delete")
 	private WebElement deleteButton;

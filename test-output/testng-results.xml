@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-01T14:08:31 IST" name="Suite" finished-at="2024-02-01T14:09:34 IST" duration-ms="63109">
+  <suite started-at="2024-02-03T13:31:36 IST" name="Suite" finished-at="2024-02-03T13:32:40 IST" duration-ms="63659">
     <groups>
     </groups>
-    <test started-at="2024-02-01T14:08:31 IST" name="Test" finished-at="2024-02-01T14:09:34 IST" duration-ms="63109">
+    <test started-at="2024-02-03T13:31:36 IST" name="Test" finished-at="2024-02-03T13:32:40 IST" duration-ms="63659">
       <class name="testScripts.AddUserTest">
-        <test-method is-config="true" signature="classSetup()[pri:0, instance:testScripts.AddUserTest@2d52216b]" started-at="2024-02-01T14:09:04 IST" name="classSetup" finished-at="2024-02-01T14:09:05 IST" duration-ms="1016" status="PASS">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:testScripts.AddUserTest@2d52216b]" started-at="2024-02-03T13:32:10 IST" name="classSetup" finished-at="2024-02-03T13:32:11 IST" duration-ms="1063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classSetup -->
-        <test-method is-config="true" signature="methodSetup()[pri:0, instance:testScripts.AddUserTest@2d52216b]" started-at="2024-02-01T14:09:05 IST" name="methodSetup" finished-at="2024-02-01T14:09:08 IST" duration-ms="2942" status="PASS">
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:testScripts.AddUserTest@2d52216b]" started-at="2024-02-03T13:32:11 IST" name="methodSetup" finished-at="2024-02-03T13:32:14 IST" duration-ms="3593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodSetup -->
-        <test-method signature="addUserTest()[pri:0, instance:testScripts.AddUserTest@2d52216b]" started-at="2024-02-01T14:09:08 IST" name="addUserTest" finished-at="2024-02-01T14:09:23 IST" duration-ms="15337" status="FAIL">
+        <test-method signature="addUserTest()[pri:0, instance:testScripts.AddUserTest@2d52216b]" started-at="2024-02-03T13:32:14 IST" name="addUserTest" finished-at="2024-02-03T13:32:30 IST" duration-ms="15278" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h4[text()=' Success!']"}
@@ -24,8 +24,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'HEMA', ip: '172.20.10.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\konik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0bb9fb94b6a28839d0964f231568d56d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\konik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63854}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b361547ea29cf9d81e7049a527be1e1e
 *** Element info: {Using=xpath, value=//h4[text()=' Success!']}]]>
             </message>
             <full-stacktrace>
@@ -35,8 +35,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'HEMA', ip: '172.20.10.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\konik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0bb9fb94b6a28839d0964f231568d56d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\konik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63854}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b361547ea29cf9d81e7049a527be1e1e
 *** Element info: {Using=xpath, value=//h4[text()=' Success!']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -92,7 +92,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addUserTest -->
-        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testScripts.AddUserTest@2d52216b]" started-at="2024-02-01T14:09:24 IST" name="methodTearDown" finished-at="2024-02-01T14:09:34 IST" duration-ms="10053" status="FAIL">
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testScripts.AddUserTest@2d52216b]" started-at="2024-02-03T13:32:30 IST" name="methodTearDown" finished-at="2024-02-03T13:32:40 IST" duration-ms="10021" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text() = 'SkillRary Admin']"}
@@ -101,8 +101,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'HEMA', ip: '172.20.10.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\konik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0bb9fb94b6a28839d0964f231568d56d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\konik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63854}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b361547ea29cf9d81e7049a527be1e1e
 *** Element info: {Using=xpath, value=//span[text() = 'SkillRary Admin']}]]>
             </message>
             <full-stacktrace>
@@ -112,8 +112,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'HEMA', ip: '172.20.10.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\konik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0bb9fb94b6a28839d0964f231568d56d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\konik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63854}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b361547ea29cf9d81e7049a527be1e1e
 *** Element info: {Using=xpath, value=//span[text() = 'SkillRary Admin']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -174,43 +174,43 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTearDown -->
-        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testScripts.AddUserTest@2d52216b]" started-at="2024-02-01T14:09:34 IST" name="classTearDown" finished-at="2024-02-01T14:09:34 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testScripts.AddUserTest@2d52216b]" started-at="2024-02-03T13:32:40 IST" name="classTearDown" finished-at="2024-02-03T13:32:40 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classTearDown -->
       </class> <!-- testScripts.AddUserTest -->
       <class name="testScripts.AddCourseTest">
-        <test-method is-config="true" signature="classSetup()[pri:0, instance:testScripts.AddCourseTest@771a660]" started-at="2024-02-01T14:08:43 IST" name="classSetup" finished-at="2024-02-01T14:08:44 IST" duration-ms="834" status="PASS">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:testScripts.AddCourseTest@771a660]" started-at="2024-02-03T13:31:48 IST" name="classSetup" finished-at="2024-02-03T13:31:49 IST" duration-ms="1100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classSetup -->
-        <test-method is-config="true" signature="methodSetup()[pri:0, instance:testScripts.AddCourseTest@771a660]" started-at="2024-02-01T14:08:44 IST" name="methodSetup" finished-at="2024-02-01T14:08:47 IST" duration-ms="3144" status="PASS">
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:testScripts.AddCourseTest@771a660]" started-at="2024-02-03T13:31:49 IST" name="methodSetup" finished-at="2024-02-03T13:31:53 IST" duration-ms="3362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodSetup -->
-        <test-method signature="addCourseTest()[pri:0, instance:testScripts.AddCourseTest@771a660]" started-at="2024-02-01T14:08:47 IST" name="addCourseTest" finished-at="2024-02-01T14:09:02 IST" duration-ms="15223" status="FAIL">
+        <test-method signature="addCourseTest()[pri:0, instance:testScripts.AddCourseTest@771a660]" started-at="2024-02-03T13:31:53 IST" name="addCourseTest" finished-at="2024-02-03T13:32:08 IST" duration-ms="15466" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//td[text()='+courseName+']/ancestor::tr/descendant::button[text()='Delete']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//td[text()='courseName']/ancestor::tr/descendant::button[text()=' Delete']"}
   (Session info: chrome=121.0.6167.86)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'HEMA', ip: '172.20.10.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\konik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0e89c973355a4aa1cb113894d8db295c
-*** Element info: {Using=xpath, value=//td[text()='+courseName+']/ancestor::tr/descendant::button[text()='Delete']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\konik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c4655193b61f16c76447042612a2c693
+*** Element info: {Using=xpath, value=//td[text()='courseName']/ancestor::tr/descendant::button[text()=' Delete']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[text()='+courseName+']/ancestor::tr/descendant::button[text()='Delete']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//td[text()='courseName']/ancestor::tr/descendant::button[text()=' Delete']"}
   (Session info: chrome=121.0.6167.86)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'HEMA', ip: '172.20.10.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\konik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0e89c973355a4aa1cb113894d8db295c
-*** Element info: {Using=xpath, value=//td[text()='+courseName+']/ancestor::tr/descendant::button[text()='Delete']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\konik\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63800}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c4655193b61f16c76447042612a2c693
+*** Element info: {Using=xpath, value=//td[text()='courseName']/ancestor::tr/descendant::button[text()=' Delete']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -263,33 +263,33 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCourseTest -->
-        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testScripts.AddCourseTest@771a660]" started-at="2024-02-01T14:09:02 IST" name="methodTearDown" finished-at="2024-02-01T14:09:04 IST" duration-ms="1828" status="PASS">
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testScripts.AddCourseTest@771a660]" started-at="2024-02-03T13:32:08 IST" name="methodTearDown" finished-at="2024-02-03T13:32:10 IST" duration-ms="1299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTearDown -->
-        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testScripts.AddCourseTest@771a660]" started-at="2024-02-01T14:09:04 IST" name="classTearDown" finished-at="2024-02-01T14:09:04 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testScripts.AddCourseTest@771a660]" started-at="2024-02-03T13:32:10 IST" name="classTearDown" finished-at="2024-02-03T13:32:10 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classTearDown -->
       </class> <!-- testScripts.AddCourseTest -->
       <class name="testScripts.AddCategoryTest">
-        <test-method is-config="true" signature="classSetup()[pri:0, instance:testScripts.AddCategoryTest@72e5a8e]" started-at="2024-02-01T14:08:31 IST" name="classSetup" finished-at="2024-02-01T14:08:32 IST" duration-ms="1358" status="PASS">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:testScripts.AddCategoryTest@72e5a8e]" started-at="2024-02-03T13:31:36 IST" name="classSetup" finished-at="2024-02-03T13:31:38 IST" duration-ms="1359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classSetup -->
-        <test-method is-config="true" signature="methodSetup()[pri:0, instance:testScripts.AddCategoryTest@72e5a8e]" started-at="2024-02-01T14:08:32 IST" name="methodSetup" finished-at="2024-02-01T14:08:36 IST" duration-ms="4008" status="PASS">
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:testScripts.AddCategoryTest@72e5a8e]" started-at="2024-02-03T13:31:38 IST" name="methodSetup" finished-at="2024-02-03T13:31:42 IST" duration-ms="3925" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodSetup -->
-        <test-method signature="addCategoryTest()[pri:0, instance:testScripts.AddCategoryTest@72e5a8e]" started-at="2024-02-01T14:08:36 IST" name="addCategoryTest" finished-at="2024-02-01T14:08:42 IST" duration-ms="5921" status="PASS">
+        <test-method signature="addCategoryTest()[pri:0, instance:testScripts.AddCategoryTest@72e5a8e]" started-at="2024-02-03T13:31:42 IST" name="addCategoryTest" finished-at="2024-02-03T13:31:47 IST" duration-ms="5848" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCategoryTest -->
-        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testScripts.AddCategoryTest@72e5a8e]" started-at="2024-02-01T14:08:42 IST" name="methodTearDown" finished-at="2024-02-01T14:08:43 IST" duration-ms="950" status="PASS">
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testScripts.AddCategoryTest@72e5a8e]" started-at="2024-02-03T13:31:47 IST" name="methodTearDown" finished-at="2024-02-03T13:31:48 IST" duration-ms="880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTearDown -->
-        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testScripts.AddCategoryTest@72e5a8e]" started-at="2024-02-01T14:08:43 IST" name="classTearDown" finished-at="2024-02-01T14:08:43 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testScripts.AddCategoryTest@72e5a8e]" started-at="2024-02-03T13:31:48 IST" name="classTearDown" finished-at="2024-02-03T13:31:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classTearDown -->

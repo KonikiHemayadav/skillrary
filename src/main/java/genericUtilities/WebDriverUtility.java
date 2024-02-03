@@ -245,7 +245,7 @@ public class WebDriverUtility {
 	public void captureScreenshot(WebDriver driver, JavaUtility jutil, String className) {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
-		File dest = new File("./Screenshot" + className + "_" + jutil.getCurrentTime() + ".png");
+		File dest = new File("./Screenshot/" + className + "_" + jutil.getCurrentTime() + ".png");
 		try {
 			FileUtils.copyFile(src, dest);
 		} catch (IOException e) {
@@ -260,7 +260,7 @@ public class WebDriverUtility {
 	 */
 	public void scrollTillElement(Object element) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0.scrollIntoView(true", element);
+		js.executeScript("arguments[0.scrollIntoView(true)", element);
 	}
 
 	/**
