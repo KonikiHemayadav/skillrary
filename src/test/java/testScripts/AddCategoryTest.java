@@ -1,6 +1,7 @@
 package testScripts;
 
 import java.util.Map;
+//this test is verifies is user is able to create AddCategory
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
